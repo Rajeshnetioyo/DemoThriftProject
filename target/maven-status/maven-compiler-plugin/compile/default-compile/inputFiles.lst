@@ -1,0 +1,15 @@
+/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/src/main/java/com/example/demo/Models/Course.java
+/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/target/generated-sources/gen-javabean/com/example/demo/thrift/gen/CourseService.java
+/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/src/main/java/com/example/demo/UniversityCoursesapiApplication.java
+/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/src/main/java/com/example/demo/Repositories/CourseRepository.java
+/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/src/main/java/com/example/demo/Dbseeders/DbSeeder_University.java
+/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/src/main/java/com/example/demo/ServiceHandlers/UniversityServiceHandler.java
+/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/target/generated-sources/gen-javabean/com/example/demo/thrift/gen/CourseThrift.java
+/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/target/generated-sources/gen-javabean/com/example/demo/thrift/gen/UniversityService.java
+/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/src/main/java/com/example/demo/Services/CourseService.java
+/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/src/main/java/com/example/demo/Models/University.java
+/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/src/main/java/com/example/demo/Dbseeders/DbSeeder_Course.java
+/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/src/main/java/com/example/demo/Repositories/UniversityRepository.java
+/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/src/main/java/com/example/demo/ServiceHandlers/CourseServiceHandler.java
+/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/target/generated-sources/gen-javabean/com/example/demo/thrift/gen/UniversityThrift.java
+/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/src/main/java/com/example/demo/Services/UniversityService.java

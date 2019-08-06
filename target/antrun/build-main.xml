@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>create (or clear) output directory for generated files</echo>
+  <mkdir dir="/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/target/generated-sources"/>
+  <delete>
+    <fileset includes="**/*" dir="/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/target/generated-sources"/>
+  </delete>
+  <echo>generate java source files from /Users/oyo/Documents/INTELLIJ_workspace/universitycourses/src/main/Thrift/thrift_demo.thrift</echo>
+  <exec executable="/usr/local/bin/thrift">
+    <arg value="--gen"/>
+    <arg value="java:beans"/>
+    <arg value="-o"/>
+    <arg value="/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/target/generated-sources"/>
+    <arg value="/Users/oyo/Documents/INTELLIJ_workspace/universitycourses/src/main/Thrift/thrift_demo.thrift"/>
+  </exec>
+</target>
+</project>
