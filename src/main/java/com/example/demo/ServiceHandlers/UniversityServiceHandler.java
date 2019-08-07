@@ -25,7 +25,7 @@ public class UniversityServiceHandler implements UniversityService.Iface {
 
     @Override
     public List<UniversityThrift> getAllUniversities() throws TException {
-        return us.getAllCourses();
+        return us.getAllUniversities();
     }
 
     @Override

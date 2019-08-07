@@ -16,15 +16,19 @@ public class University {
     public University() {
     }
 
-    public University(String univ_name) {
-        this.univ_name = univ_name;
-        this.courses=new ArrayList<>();
-    }
-
     public University(String id, String univ_name, List<Course> courses) {
         this.id = id;
         this.univ_name = univ_name;
         this.courses = courses;
+    }
+
+    public University(String univ_name, List<Course> courses) {
+        this.univ_name = univ_name;
+        this.courses = courses;
+    }
+
+    public University(String univ_name) {
+        this.univ_name = univ_name;
     }
 
 

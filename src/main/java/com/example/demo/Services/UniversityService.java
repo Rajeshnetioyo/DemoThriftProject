@@ -16,21 +16,24 @@ public class UniversityService {
     @Autowired
     private UniversityRepository ur;
 
-    public List<UniversityThrift> getAllCourses(){
-        List<University> us=new ArrayList<>();
-        List<UniversityThrift> uts=new ArrayList<>();
-        for(University u:ur.findAll()){
-            us.add(u);
-        }
-        for(University u:us){
-            List<Course> cs=u.getCourses();
-            List <CourseThrift> cts=new ArrayList<>();
-            for(Course c:cs){
-                cts.add(new CourseThrift(c.getId(),c.getName(),c.isOffered()));
+    public List<UniversityThrift> getAllUniversities(){
+        List<UniversityThrift> UniversityThrifts=new ArrayList<>();
+        List<University> Universities=new ArrayList<>();
+        Universities.addAll(ur.findAll());
+        for(University u:Universities){
+            List<CourseThrift> courseThrifts=new ArrayList<>();
+
+
+            for(Course course:u.getCourses()){
+                CourseThrift ct=new CourseThrift(course.getId(),course.getName(),course.isOffered());
+                courseThrifts.add(ct);
             }
-            uts.add(new UniversityThrift(u.getId(),u.getUniv_name(),cts));
+            UniversityThrift universityThrift=new UniversityThrift(u.getId(),u.getUniv_name(),courseThrifts);
+            UniversityThrifts.add(universityThrift);
+
         }
-        return uts;
+        return UniversityThrifts;
+
     }
     public  void del_University (String id){
         ur.deleteById(id);
