@@ -11,6 +11,7 @@ public class Course {
     private  String name;
     private boolean offered;
 
+
     public Course(String name) {
         this.name = name;
         this.offered=true;

@@ -13,6 +13,9 @@ public class University {
     private  String univ_name;
     private List<Course> courses;
 
+    public University() {
+    }
+
     public University(String univ_name) {
         this.univ_name = univ_name;
         this.courses=new ArrayList<>();

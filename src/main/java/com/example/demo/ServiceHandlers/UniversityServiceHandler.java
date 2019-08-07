@@ -30,18 +30,19 @@ public class UniversityServiceHandler implements UniversityService.Iface {
 
     @Override
     public void addUniversity(String name) throws TException {
-        us.add_University(name);
+
+        us.add_University(new University(name));
     }
 
     @Override
     public void updUniversity(UniversityThrift ut) throws TException {
-        University u=new University();
+        University u = new University();
         u.setId(ut.getId());
         u.setUniv_name(ut.getUniv_name());
-        List<Course> cs=new ArrayList<>();
-        List<CourseThrift> cts=ut.getCourses();
-        for(CourseThrift ct:ut){
-            cs.add(new Course(ct.getId(),ct.getName(),ct.isSetApproved()));
+        List<Course> cs = new ArrayList<>();
+        List<CourseThrift> cts = ut.getCourses();
+        for (CourseThrift ct : cts) {
+            cs.add(new Course(ct.getId(), ct.getName(), ct.isSetApproved()));
         }
         u.setCourses(cs);
         us.upd_University(u);
