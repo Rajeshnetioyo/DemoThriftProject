@@ -13,6 +13,17 @@
       <change afterPath="$PROJECT_DIR$/../springboot-mongodb-demo/src/main/java/Models/Hotel.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springboot-mongodb-demo/src/main/java/Models/Review.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springboot-mongodb-demo/src/main/java/Repositories/HotelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Thrift/Thrift_demo.thrift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Dbseeders/DbSeeder_Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Dbseeders/DbSeeder_University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Models/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Models/University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Repositories/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Repositories/UniversityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/ServiceHandlers/CourseServiceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/ServiceHandlers/UniversityServiceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Services/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Services/UniversityService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../thrift-client/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../thrift-client/src/main/java/com/oyo/calculator/CalculatorHTTPClient.java" beforeDir="false" />
@@ -21,18 +32,6 @@
       <change beforePath="$PROJECT_DIR$/../thrift-server/src/main/java/com/oyo/calculator/CalculatorApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../thrift-server/src/main/java/com/oyo/calculator/handler/CalculatorServiceHandler.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../thrift-server/src/main/thrift/calculator.thrift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Dbseeders/DbSeeder_University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Dbseeders/DbSeeder_University.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Models/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Models/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Models/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Models/University.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/ServiceHandlers/UniversityServiceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/ServiceHandlers/UniversityServiceHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/UniversityCoursesapiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/demo/UniversityCoursesapiApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Dbseeders/DbSeeder_Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Dbseeders/DbSeeder_University.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Dbseeders/DbSeeder_University.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Models/University.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Models/University.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/ServiceHandlers/UniversityServiceHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/ServiceHandlers/UniversityServiceHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
