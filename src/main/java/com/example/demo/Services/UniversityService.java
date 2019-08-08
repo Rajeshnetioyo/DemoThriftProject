@@ -10,6 +10,8 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
 @Service
 public class UniversityService {
@@ -22,11 +24,10 @@ public class UniversityService {
         Universities.addAll(ur.findAll());
         for(University u:Universities){
             List<CourseThrift> courseThrifts=new ArrayList<>();
-
-
-            for(Course course:u.getCourses()){
-                CourseThrift ct=new CourseThrift(course.getId(),course.getName(),course.isOffered());
-                courseThrifts.add(ct);
+            if(Objects.nonNull(u.getCourses())){
+                for(Course course:u.getCourses()){
+                    courseThrifts.add(new CourseThrift(course.getId(),course.getName(),course.isOffered()));
+                }
             }
             UniversityThrift universityThrift=new UniversityThrift(u.getId(),u.getUniv_name(),courseThrifts);
             UniversityThrifts.add(universityThrift);

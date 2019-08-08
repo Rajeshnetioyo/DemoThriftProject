@@ -5,7 +5,7 @@ struct CourseThrift{
     2:string name;
     3:bool approved;
 }
-typedef CourseThrift course
+typedef CourseThrift  course
 
 struct UniversityThrift{
     1:string id;
